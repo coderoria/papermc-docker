@@ -14,7 +14,7 @@ COPY papermc.sh .
 RUN apk update \
     && apk add openjdk21-jre \
     && apk add bash \
-    && apk add wget \
+    && apk add curl \
     && apk add jq \
     && mkdir /papermc
 
